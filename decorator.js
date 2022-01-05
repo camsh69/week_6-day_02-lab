@@ -14,6 +14,13 @@ Decorator.prototype.totalPaint = function() {
     return sum;
 }
 
+Decorator.prototype.hasEnoughPaint = function(room, paint) {
+    if (paint >= room.area) {
+        return true;
+    }
+    return false;
+}
+
 
 
 

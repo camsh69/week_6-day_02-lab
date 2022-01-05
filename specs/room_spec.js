@@ -1,5 +1,5 @@
 const assert = require('assert');
-const Room = require('../room')
+const Room = require('../room');
 
 describe('Room', function() {
 
